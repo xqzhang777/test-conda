@@ -8,6 +8,8 @@ def test_hmmer():
     import subprocess
     subprocess.call('hmmsearch', shell=True)
 
+test_hmmer()
+
 b = st.button("Click me")
 
 if b:
