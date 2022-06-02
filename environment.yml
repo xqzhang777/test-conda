@@ -2,5 +2,4 @@ name: streamlit-conda-minimal
 channels:
   - conda-forge
 dependencies:
-  - cctbx-base
-  
+  - cctbx
