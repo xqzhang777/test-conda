@@ -1,6 +1,6 @@
 import streamlit as st
 import torch
-#import cctbx
+import cctbx
 
 "Hello from conda"
 
