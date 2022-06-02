@@ -1,8 +1,7 @@
 name: streamlit-conda-minimal
 channels:
-  - pytorch
   - conda-forge
 dependencies:
-  - pytorch
+  - cctbx
   - cctbx-base
   
