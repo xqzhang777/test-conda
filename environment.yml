@@ -5,4 +5,4 @@ channels:
 dependencies:
   - pytorch
   - cctbx-base
-  - cctbx
+  
