@@ -1,6 +1,8 @@
 name: base
 channels:
   - pytorch
+  - conda-forge
+  - bioconda
 dependencies:
   - python=3.9
   - pytorch
