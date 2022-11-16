@@ -4,11 +4,14 @@ import iotbx.ccp4_map
 
 "Hello from conda"
 
-def test_hmmer():
-    import subprocess
-    subprocess.call('hmmsearch', shell=True)
+if Path("/home/appuser").exists():
+    # essential to avoid cctbx import errors
+    target = Path("/home/appuser/venv/share/cctbx")
+    if not target.exists():
+        target.symlink_to("/home/appuser/.conda/share/cctbx")
 
-test_hmmer()
+    sys.path += ["/home/appuser/venv/lib/python3.9/lib-dynload"]
+    os.environ["PATH"] += os.pathsep + "/home/appuser/.conda/bin"
 
 b = st.button("Click me")
 
