@@ -9,4 +9,3 @@ dependencies:
   - bokeh
   - scipy
   - numpy
-  - pandas
