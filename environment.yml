@@ -6,4 +6,4 @@ channels:
 dependencies:
   - python=3.9
   - pytorch
-  - cctbx-base
+  - bokeh
