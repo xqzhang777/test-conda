@@ -8,4 +8,4 @@ dependencies:
   - pytorch
   - bokeh
   - numpy
-  - pandas
+  - h5py
