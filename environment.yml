@@ -9,5 +9,4 @@ dependencies:
   - bokeh
   - scipy
   - numpy
-  - h5py
   - pandas
