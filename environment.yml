@@ -7,3 +7,6 @@ dependencies:
   - python=3.9
   - pytorch
   - bokeh
+  - numpy
+  - h5py
+  - pandas
